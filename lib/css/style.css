@@ -331,7 +331,7 @@ p.small_margins, h1.small_margins, h2.small_margins, h3.small_margins, h4.small_
 }
 
 .section_wrapper.grey_bg{
-	background: #f4f4f4;
+	background: #EDEAEA;
 }
 
 .section_wrapper.dark_bg{
@@ -354,12 +354,22 @@ p.small_margins, h1.small_margins, h2.small_margins, h3.small_margins, h4.small_
 	position:relative;
 	clear:both;
 	overflow:hidden;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.odd{
+	background-color: #f4f4f4;
+}
+
+.even {
+	background-color: #EDEAEA;
 }
 
 .half_col{
 	width:50%;
 	float:left;
-	background: #f4f4f4;
+	background: transparent;
 }
 
 .half_col_inside{
@@ -372,6 +382,11 @@ p.small_margins, h1.small_margins, h2.small_margins, h3.small_margins, h4.small_
 
 .section_box.no_margins{
 	padding:0;
+}
+
+.project_break {
+	height: 2px;
+	background-color: #EDEAEA;
 }
 
 /* Title / Subtitle
@@ -939,7 +954,7 @@ p.quote_text {
 	width:90%;
 	padding-left: 5%;
 	padding-right: 5%;
-	padding-top: 110px;
+	padding-top: 100px;
 	max-width:1170px;
 	text-align:center;
 }
@@ -951,6 +966,20 @@ p.quote_text {
 	font-size:42px;
 	line-height:48px;
 	font-weight:300;
+}
+
+#showcase {
+	/*padding-bottom: 100px;*/
+}
+
+#showcase .info_transparent {
+	padding-top: 50px;
+	padding-bottom: 35px;
+}
+
+#showcase .info_transparent h3{
+	font-size: 2em;
+	color: #525252;
 }
 
 .info_transparent h4{
@@ -1291,6 +1320,10 @@ ul.store_icons li a i:hover {
 .show_responsive_nav #responsive_nav_hide {
 	opacity: 1;
 	visibility: visible; }
+
+ #nav .current a {
+	color:red;
+}
 
 /* ========================================================== */
 /* 				  	     14. PRINT STYLES                     */
