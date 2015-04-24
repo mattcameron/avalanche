@@ -86,12 +86,12 @@ label { cursor: pointer; }
 legend { border: 0; *margin-left: -7px; padding: 0; white-space: normal; }
 button, input, select, textarea { font-size: 100%; margin: 0; vertical-align: baseline; *vertical-align: middle; }
 button, input { line-height: normal; }
-button, input[type="button"], input[type="reset"], input[type="submit"] { cursor: pointer; -webkit-appearance: button; *overflow: visible; }
+button, input[type="button"], input[type="reset"], input[type="submit"] { cursor: pointer; *overflow: visible; }
 button[disabled], input[disabled] { cursor: default; }
 input[type="checkbox"], input[type="radio"] { box-sizing: border-box; padding: 0; *width: 13px; *height: 13px; }
 input[type="search"] { -webkit-appearance: textfield; -moz-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box; }
 input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-search-cancel-button { -webkit-appearance: none; }
-button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
+/*button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }*/
 textarea { overflow: auto; vertical-align: top; resize: vertical;}
 input:valid, textarea:valid {  }
 input:invalid, textarea:invalid { background-color: #f0dddd; }
@@ -900,30 +900,21 @@ p.quote_text {
 
 #submit-button-newsletter {
 	width:30%;
-    max-width: 140px;
-	height:58px;
-	line-height:60px;
-    background-color:#03d7ab;
-	border: none;
-    color:#fff;
-	margin:0 0 0 0;
-    -moz-border-radius:5px;
-    -webkit-border-radius:5px;
-    border-radius:5px;
-	font-size:14px;
-	font-weight:400;
-	vertical-align: top;
-	transition: background-color .25s ease-in-out;
-   -moz-transition: background-color .25s ease-in-out;
-   -webkit-transition: background-color .25s ease-in-out;
+  max-width: 150px;
+  color:#fff;
+	margin:0;
+  background: #48d5f1;
+  border-radius:6px;
+  padding: 0.6em 1.5em;
+  font-size: 1.2em;
+	font-weight: 400;
+	letter-spacing: 1px;
+  border-color: #40bfec;
+  text-shadow: 0px 2px 0px #40bfec;
 }
 
 #submit-button-newsletter:hover {
-	color:#454545;
-    background-color:#fff;
-	transition: background-color .25s ease-in-out;
-   -moz-transition: background-color .25s ease-in-out;
-   -webkit-transition: background-color .25s ease-in-out;
+   background-color:#40bfec;
 }
 
 ::-webkit-input-placeholder { /* WebKit browsers */
