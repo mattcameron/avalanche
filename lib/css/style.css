@@ -384,9 +384,8 @@ p.small_margins, h1.small_margins, h2.small_margins, h3.small_margins, h4.small_
 	padding:0;
 }
 
-.project_break {
-	height: 2px;
-	background-color: #EDEAEA;
+#showcase {
+	position: relative;
 }
 
 /* Title / Subtitle
