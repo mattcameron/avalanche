@@ -55,7 +55,7 @@
                             <a href="#showcase">Portfolio</a>
                         </li>
                         <li class="last">
-                            <a href="#subscribe">Contact Us</a>
+                            <a href="#contact">Contact Us</a>
                         </li>
                     </ul>
                 </nav>
@@ -206,8 +206,8 @@
         </div>
         <!-- end section_wrapper -->
 
-        <!-- begin newsletter_wrapper -->
-        <div id="subscribe" class="newsletter_wrapper">
+        <!-- begin contact_wrapper -->
+        <div id="contact" class="contact_wrapper">
 
             <!--begin info_transparent -->
             <div class="info_transparent">
@@ -215,47 +215,27 @@
             </div>
             <!--end info_transparent -->
 
-            <!-- begin newsletter_box -->
-            <div class="newsletter_box">
+            <!-- begin contact_box -->
+            <div class="contact_box">
 
-                <!-- begin row -->
-                <div class="row">
+              <!--begin success message -->
+                        <p class="success_box" style="display:none">We received your message and you'll hear from us soon. Thank You!</p>
+              <!--end success message -->
 
-                    <!-- begin twelvecol -->
-                    <div class="twelvecol">
-
-                        <!--begin newsletter_form_wrap -->
-                        <div class="newsletter_form_wrap">
-
-                            <!--begin success_box -->
-                            <p class="success_box" style="display:none;">We received your message and you'll hear from us soon.</p>
-                            <!--end success_box -->
-
-                            <!--begin newsletter-form -->
-                            <form id="newsletter-form" class="newsletter_form" action="contact_form.php" method="post">
-                                <input id="form_name" type="text" name="nf_name" placeholder="Your Name" />
-
-                                <input id="email_newsletter" type="email" name="nf_email" placeholder="Your Email Address" />
-
-                                <textarea name="message" id="form_message" cols="30" rows="10" placeholder="Your Message"></textarea>
-                                <input type="submit" value="Send" id="submit-button-newsletter" />
-                            </form>
-                            <!--end newsletter-form -->
-
-                        </div>
-                        <!--end newsletter_form_wrap -->
-
-                    </div>
-                    <!-- end twelvecol -->
-
-                </div>
-                <!-- end row -->
+                        <!--begin contact form -->
+                        <form id="contact-form" action="contact.php" method="post">
+                            <input id="form_name" type="text" required name="contact_names" placeholder="Your Name" />
+                            <input id="form_email" type="email" required name="contact_email" placeholder="Email Adress" />
+                            <textarea id="form_message" rows="10" cols="30" name="contact_message" placeholder="Your Message..."></textarea>
+                            <input type="submit" value="SUBMIT" id="submit-button-contact" class="contact-submit" />
+                        </form>
+                        <!-- end contact form -->
 
             </div>
-            <!-- end newsletter_box -->
+            <!-- end contact_box -->
 
         </div>
-        <!-- end newsletter_wrapper -->
+        <!-- end contact_wrapper -->
 
     </div>
     <!--! end of #container -->

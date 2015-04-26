@@ -22,7 +22,7 @@ Version: 1.0
 06. HOME
 07. INTRO
 08. QUOTE
-09. NEWSLETTER
+09. CONTACT
 10. OTHER STYLES
 11. BACKGROUND IMAGES
 12. MOBILE DEVICES
@@ -846,10 +846,10 @@ p.quote_text {
 }
 
 /* ========================================================== */
-/* 				  		    09. NEWSLETTER                    */
+/* 				  		    09. CONTACT                    */
 /* ========================================================== */
 
-.newsletter_wrapper{
+.contact_wrapper{
 	width:100%;
 	z-index:100;
 	background: url(../../lib/images/12.jpg);
@@ -859,7 +859,7 @@ p.quote_text {
     background-size: cover;
 }
 
-.newsletter_box{
+.contact_box{
 	width:100%;
 	max-width:1170px;
 	margin:0 auto;
@@ -867,20 +867,18 @@ p.quote_text {
 	text-align:center;
 }
 
-.newsletter_form_wrap p.success_box{
+p.success_box{
 	font-size:18px;
 	margin-bottom:15px;
-	text-shadow: 1px 1px 1px white;
-	-moz-text-shadow: 1px 1px 1px white;
-	-webkit-text-shadow:1px 1px 1px white;
+	color: #fff;
 }
 
-#newsletter-form {
+#contact-form {
 	padding:0 0 15px 0!important;
 	margin:0!important;
 }
 
-#email_newsletter, #form_name {
+#form_email, #form_name {
 	display: block;
 	width:70%;
 	max-width:500px;
@@ -912,7 +910,7 @@ p.quote_text {
 	margin:10px auto;
 }
 
-#submit-button-newsletter {
+#submit-button-contact {
 	width:30%;
   max-width: 150px;
   color:#fff;
@@ -929,7 +927,7 @@ p.quote_text {
   text-shadow: 0px 2px 0px #d93f54;
 }
 
-#submit-button-newsletter:hover {
+#submit-button-contact:hover {
    background-color:#d93f54;
 }
 
