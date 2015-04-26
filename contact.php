@@ -1,10 +1,10 @@
 <?php
 
-$field_first_name = $_POST['names'];
+$field_first_name = $_POST['contact_names'];
 
-$field_email = $_POST['email'];
+$field_email = $_POST['contact_email'];
 
-$field_message = $_POST['message'];
+$field_message = $_POST['contact_message'];
 
 $mail_to = 'mcameron@avalanche.com.au';
 
